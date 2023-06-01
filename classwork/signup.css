@@ -1,0 +1,99 @@
+.signup {
+    padding: 10px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    color: #000;
+    background: none;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FAC07D;
+    border-radius: 15px;
+    width: 500px;
+    height: 370px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #0B8001;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+input {
+    height: 40px;
+    width: 230px;
+    border-radius: 40px;
+    border: solid 2px #0B8001;
+    background: none;
+}
+
+.one .submit {
+    margin-top: 40px;
+    /* height: 40px; */
+    border-radius: 10px;
+    border: none;
+    background: #0B8001;
+    font-size: 30px;
+    align-self: center;
+    padding: 10px 30px;
+    color: white;
+}
+
+.two .submit {
+    margin-top: 16px;
+    /* height: 40px; */
+    border-radius: 10px;
+    border: none;
+    background: #FF0000;
+    font-size: 30px;
+    align-self: center;
+    padding: 10px 30px;
+    color: white;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100px;
+}
+.radio input{
+    width: 20px;
+    height: 20px;
+}
+h1 {
+    font-weight: bolder;
+}
+.links{
+    text-decoration: none;
+    color: wheat;
+}

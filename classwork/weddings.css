@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn {
+    padding: 10px 25px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    background: #F58400;
+    color: #0B8001;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+img {
+    width: 200px;
+    align-self: flex-start;
+    justify-self: start;
+}
+.menus a {
+    border: solid 2px #02813E;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: #F58400;
+}
+.menus {
+    align-self: flex-end;
+    justify-self: end;
+}
+
+h1 {
+    color: #02813E;
+    text-align: center;
+}
+h2{
+    color: #F58400;
+    text-align: center;
+}
+dl {
+    color: #F58400;
+    font-size: 20px;
+}

@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    align-self: flex-start;
+    justify-self: start;
+}
+.menus a {
+    border: solid 2px #02813E;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: #F58400;
+}
+.menus {
+    align-self: flex-end;
+    justify-self: end;
+}
+
+h1 {
+    color: #02813E;
+    text-align: center;
+}
+
+dl {
+    color: #F58400;
+    font-size: 20px;
+}
